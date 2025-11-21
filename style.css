@@ -303,6 +303,31 @@ header {
     flex-wrap: wrap;
 }
 
+/* Compact Project Card */
+.project-card-compact {
+    padding: 1.25rem !important;
+}
+
+.project-card-compact h3 {
+    font-size: 1.2rem;
+}
+
+.project-card-compact p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
 /* Skills Section */
 .skills {
     padding: 80px 20px;
